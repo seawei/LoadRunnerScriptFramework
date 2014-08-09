@@ -1,0 +1,70 @@
+[General]
+Type=WinSock
+RecordedProtocol=
+DefaultCfg=default.cfg
+AppName=
+BuildTarget=
+ParamRightBrace=>
+ParamLeftBrace=<
+NewFunctionHeader=0
+LastActiveAction=vuser_init
+CorrInfoReportDir=result1
+LastResultDir=
+DevelopTool=Vugen
+MajorVersion=11
+MinorVersion=0
+ParameterFile=VuGen.prm
+GlobalParameterFile=
+LastModifyVer=11.0.0.0
+[TransactionsOrder]
+Order=""
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[ProtocolsVersion]
+WinSock=11.0.0.0
+[RunLogicFiles]
+Default Profile=default.usp
+[StateManagement]
+1=1
+7=0
+8=0
+9=0
+10=0
+11=0
+12=0
+17=0
+18=0
+20=0
+21=0
+CurrentState=1
+VuserStateHistory= 0 65536 65552
+LastReplayStatus=2
+LastReplayErrorID1=9017
+LastReplayErrorMsg1=vuser_init.c(17): 错误: 尝试 connect 的超时时间已到。错误代码: 9017。
+LastReplayErrorID2=10061
+LastReplayErrorMsg2=vuser_init.c(17): 错误: callConnect - 连接被拒绝。错误代码: 10061。
+[ExtraFiles]
+data.ws=
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+socket.h=0
+def.h=0
+[Replayed Actions]
+vuser_init=1
+Action=0
+vuser_end=0
+socket.h=0
+def.h=0
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+socket.h=0
+def.h=0
+[ManuallyExtraFiles]
+socket.h=
+def.h=
